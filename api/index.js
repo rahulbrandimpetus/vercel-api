@@ -8,7 +8,7 @@ app.use(express.json());
 // Test route
 app.get('/api', (req, res) => {
   res.json({
-    message: 'API is working! 🚀',
+    message: 'API is working!',
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV || 'development'
   });
